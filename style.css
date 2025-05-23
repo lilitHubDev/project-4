@@ -1,181 +1,27 @@
-body{
+.div2{
+	width: 100%;
+	height: 100vh;
+	border: 1px solid;
 	position: relative;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	font-family: sans-serif;
-	color: gray;
 }
-h1{
-	font-size: 45px;
-	font-family: "Pacifico", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-.blue{
-	width: 100%;
-	height: 75vh;
-	background: gray;
-}
-.white{
-	background: lightgray;
-	height: 85vh;
-	width: 100%;
-}
-button{
-	width: 150px;
-	height: 30px;
-	background: white;
-	border-radius: 15px;
-	color: black;
-	margin-top: 100px;
-	border: none;
-	font-size: 20px;
-}
-
-.ak1{
-	width: 500px;
-	height: 500px;
+img{
+	margin: 25vh 250px;
 	position: absolute;
-	background: white;
-	top: 100px;
-	left: 32%;
-	border-radius: 30px;
-	text-align: center;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	box-shadow: 6px 10px 3px black;
+	z-index: 1;
 }
-input{
-	width: 90%;
-	height: 30px;
-	margin-top: 10px;
-	border-radius: 5px;
-	margin-top: 25px;
-	border: none;
-	border-bottom: 1px solid;
-}
-input::placeholder{
-	font-size: 20px;
-}
-.ak2{
-	width: 500px;
-	height: 500px;
+.div2 div{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: black;
 	position: absolute;
-	background: white;
-	top: 150%;
-	left: 42%;
-	border-radius: 20px;
-	text-align: center;
-	padding: 30px 20px;
-	box-sizing: border-box;
-	z-index: 2;
-	box-shadow: 6px 10px 3px black;
+	z-index: 5;
 }
-
-.bar1{
-	animation-name: input1;
-	animation-duration: 1s;
-	animation-fill-mode: both;	
+.radius1{
+	top: 290px;
+	left: 495px;
 }
-@Keyframes input1{
-	from{
-		width: 500px;
-		height: 500px;
-		top: 100px;
-	}
-	to{
-		width: 100px;
-		height: 100px;
-		top: -150%;
-		left: 40%;
-	}
-}
-.bar2{
-	animation-name: input2;
-	animation-duration: 1s;
-	animation-fill-mode: both;	
-}
-@Keyframes input2{
-	from{
-		width: 100px;
-		height: 100px;
-		top: 150%;
-		left: 40%;
-	}
-	to{
-		width: 500px;
-		height: 500px;
-		top: 100px;
-		left: 32%;
-	}
-}
-
-
-.dzax1{
-	animation-name: input3;
-	animation-duration: 1s;
-	animation-fill-mode: both;	
-}
-@Keyframes input3{
-	from{
-		width: 100px;
-		height: 100px;
-		top: -150%;
-		left: 40%;
-	}
-	to{
-		width: 500px;
-		height: 500px;
-		top: 100px;
-		left: 32%;
-	}
-}
-.dzax2{
-	animation-name: input4;
-	animation-duration: 1s;
-	animation-fill-mode: both;	
-}
-@Keyframes input4{
-	from{
-		width: 500px;
-		height: 500px;
-		left: 32%;
-		top: 100px;
-	}
-	to{
-		width: 100px;
-		height: 100px;
-		left: 40%;
-		top: 150%;
-	}
-}
-
-
-
-.bigGray{
-	animation-name: big;
-	animation-duration: 1s;
-	animation-fill-mode: both;	
-}
-@Keyframes big{
-	from{
-		height: 75vh;
-	}
-	to{
-		height: 20vh;
-	}
-}
-.bigGray1{
-	animation-name: big1;
-	animation-duration: 1s;
-	animation-fill-mode: both;	
-}
-@Keyframes big1{
-	from{
-		height: 20vh;
-	}
-	to{
-		height: 75vh;
-	}
+.radius2{
+	top: 290px;
+	left: 637px;
 }
